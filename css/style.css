@@ -279,3 +279,43 @@ p{
     color: white;
     text-decoration: none;
 }
+
+/* try */
+.try{
+    background-color: var(--lilla);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.transparent{
+    opacity: 0.5;
+    padding: 2rem 0;
+}
+
+.try h3{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.try h2{
+    font-size: 3rem;
+    color: #fdc15f;
+    padding-bottom: 1rem;
+}
+
+.started{
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 40px;
+    background-color: white;
+    color: var(--lilla);
+    margin: 2rem;
+    display: inline-block;
+}
+
+.privacy{
+    color: white;
+}
