@@ -48,6 +48,7 @@ a i{
 }
 
 /* main */
+/* cards */
 main{
     padding-top: 60px;
 }
@@ -63,7 +64,7 @@ main{
     padding-bottom: 0;
 }
 
-h3{
+.cards h3{
     color: var(--blue);
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -88,4 +89,58 @@ p{
 .text-center i{
     padding-bottom: 1rem;
     color: var(--blue);
+}
+
+/* planning */
+.planning{
+    background-color: var(--lilla);
+    color: white;
+}
+
+.planning1{
+    padding: 3rem 0;
+}
+
+.planning h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.planning p{
+    margin-bottom: 2rem;
+}
+
+.app-dev{
+    background-color: white;
+    border-radius: 50px;
+    padding-bottom: 2rem;
+}
+
+.app-dev *{
+    color: black;
+    text-align: center;
+}
+
+.app-dev img{
+    padding: 2rem;
+}
+
+.app-dev h3{
+    font-size: 1.5rem;
+}
+
+.app-dev p{
+    font-style: italic;
+    padding: 1rem;
+    margin-bottom: 0;
+}
+
+.app-dev a{
+    display: block;
+}
+
+.app-dev i{
+    padding: 1rem;
+    background-color: var(--lilla);
+    border-radius: 50%;
 }
