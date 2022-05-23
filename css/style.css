@@ -5,14 +5,19 @@
     font-family: 'PT Sans', sans-serif;
 }
 
+:root{
+    --lilla: #9792e4;
+    --lightblue: #b5ddff;
+    --blue: #0084fd;
+}
+
 /* common */
 .flex-container{
     display: flex;
 }
 
 .container{
-    width: 90%;
-    margin: 0 auto;
+    margin: 0 1.5rem;
 }
 
 /* header */
@@ -29,10 +34,31 @@ nav{
     align-items: center;
 }
 
-nav img{
+img{
     display: block;
+    width: 100%;
 }
 
 a i{
     color: white;
+}
+
+/* main */
+main{
+    padding-top: 60px;
+}
+
+.card{
+    background-color: var(--lightblue);
+    padding: 1.5rem;
+    border-radius: 20px;
+    margin: 2rem 0;
+}
+
+.phone{
+    padding-bottom: 0;
+}
+
+h3{
+    color: var(--blue);
 }
