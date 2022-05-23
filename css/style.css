@@ -286,6 +286,7 @@ p{
     color: white;
     text-align: center;
     padding: 1rem 0;
+    padding-bottom: 3rem;
 }
 
 .transparent{
@@ -318,4 +319,19 @@ p{
 
 .privacy{
     color: white;
+}
+
+/* footer */
+footer{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+
+footer > .container > *{
+    padding: 2rem 0;
+}
+
+footer a{
+    color: var(--lilla);
 }
