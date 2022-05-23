@@ -230,3 +230,52 @@ p{
     margin-top: 1rem;
     display: inline-block;
 }
+
+/* about us */
+.about{
+    padding: 3rem 0;
+}
+
+.about h2{
+    font-size: 2rem;
+    color: var(--lilla);
+    padding-bottom: 2rem;
+}
+
+.about p{
+    padding-bottom: 2rem;
+}
+
+.about img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.pic{
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.pic i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--lilla);
+}
+
+.lilla{
+    color: var(--lilla);
+    font-size: 1.5rem;
+    font-style: bold;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.about a{
+    background-color: var(--lilla);
+    border-radius: 40px;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+}
