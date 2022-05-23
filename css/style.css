@@ -20,9 +20,13 @@
     margin: 0 1.5rem;
 }
 
+.text-center{
+    text-align: center;
+}
+
 /* header */
 header{
-    background-color: #0084FD;
+    background-color: var(--blue);
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -60,5 +64,28 @@ main{
 }
 
 h3{
+    color: var(--blue);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    line-height: 2rem;
+}
+
+.apple-button{
+    background-color: var(--blue);
+    border-radius: 40px;
+    padding: 1rem;
+    margin: 1rem auto;
+    display: block;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.text-center i{
+    padding-bottom: 1rem;
     color: var(--blue);
 }
