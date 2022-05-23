@@ -338,3 +338,29 @@ footer > .container > *{
 footer a{
     color: var(--lilla);
 }
+
+/* tablet */
+@media all and (min-width: 768px){
+    main{
+        padding-top: 100px;
+    }
+    
+    .cards > .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .card{
+        margin: 0;
+        width: calc(100% / 3 - 20px);
+    }
+
+    .phone{
+        flex-grow: 2;
+    }
+
+    .text-center{
+    }
+}
