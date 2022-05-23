@@ -4,3 +4,35 @@
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
 }
+
+/* common */
+.flex-container{
+    display: flex;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* header */
+header{
+    background-color: #0084FD;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav{
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+nav img{
+    display: block;
+}
+
+a i{
+    color: white;
+}
