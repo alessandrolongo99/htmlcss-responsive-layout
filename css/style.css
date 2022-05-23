@@ -138,12 +138,15 @@ p{
 
 .app-dev a{
     display: block;
+    height: 3rem;
+    width: 3rem;
+    background-color: var(--lilla);
+    margin: 0 auto;
+    border-radius: 50%;
 }
 
 .app-dev i{
-    padding: 1rem;
-    background-color: var(--lilla);
-    border-radius: 50%;
+    line-height: 3rem;
 }
 
 /* testimonials */
@@ -221,9 +224,9 @@ p{
 
 .button{
     text-align: center;
-    width: 100px;
+    width: 120px;
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 40px;
     background-color: var(--lilla);
     color: white;
@@ -267,7 +270,7 @@ p{
 .lilla{
     color: var(--lilla);
     font-size: 1.5rem;
-    font-style: bold;
+    font-weight: bold;
     padding: 1rem 0;
     margin-bottom: 1rem;
 }
