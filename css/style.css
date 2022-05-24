@@ -512,3 +512,10 @@ footer a{
         margin: 0 auto;
     }
 }
+
+@media all and (min-width: 1200px){
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
