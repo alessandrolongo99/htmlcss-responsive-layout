@@ -11,6 +11,23 @@
     --blue: #0084fd;
 }
 
+.hidden{
+    display: none;
+}
+
+.hidden a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+}
+
+a.button-hidden{
+    padding: 0.5rem;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+}
+
 /* common */
 .flex-container{
     display: flex;
@@ -111,14 +128,11 @@ p{
     margin-bottom: 2rem;
 }
 
-.planning p{
-    margin-bottom: 2rem;
-}
-
 .app-dev{
     background-color: white;
     border-radius: 50px;
     padding-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .app-dev *{
@@ -434,5 +448,67 @@ footer a{
 
     .try h2{
         font-size: 4rem;
+    }
+}
+
+/* desktop */
+@media all and (min-width: 992px){
+    .bars{
+        display: none;
+    }
+
+    .hidden{
+        display: block;
+    }
+
+    .phone{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .phone > div{
+        width: calc(100% / 2 - 1rem);
+    }
+
+    .phone img{
+        width: 100%;
+    }
+
+    .img{
+        align-self: flex-end;
+    }
+
+    .planning .container{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .planning > .container > div{
+        width: calc(100% / 2 - 1rem);
+        align-self: flex-end;
+    }
+
+    .strategic-planning{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .strategic-planning > p{
+        align-self: flex-end;
+    }
+
+    .benefit{
+        width: calc(100% / 3 - 1rem);
+    }
+
+    .lilla{
+        width: 150px;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .dev-img{
+        width: 300px;
+        margin: 0 auto;
     }
 }
