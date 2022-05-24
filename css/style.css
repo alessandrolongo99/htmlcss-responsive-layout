@@ -53,6 +53,10 @@ main{
     padding-top: 60px;
 }
 
+.cards{
+    padding-bottom: 3rem;
+}
+
 .card{
     background-color: var(--lightblue);
     padding: 1.5rem;
@@ -308,6 +312,11 @@ p{
     padding-bottom: 1rem;
 }
 
+.try p{
+    margin: 0 auto;
+    width: 400px;
+}
+
 .started{
     text-align: center;
     width: 200px;
@@ -331,6 +340,11 @@ footer{
     text-align: center;
 }
 
+footer .container{
+    max-width: 410px;
+    margin: 0 auto;
+}
+
 footer > .container > *{
     padding: 2rem 0;
 }
@@ -349,18 +363,76 @@ footer a{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        gap: 20px;
+        gap: 1rem;
     }
 
     .card{
         margin: 0;
-        width: calc(100% / 3 - 20px);
+        width: calc(100% / 3 - 1rem)
     }
 
     .phone{
-        flex-grow: 2;
+        width: calc(100% / 3 * 2 - 0.5rem);
     }
 
-    .text-center{
+    .planning1{
+        max-width: 650px;
+        margin: 0 auto;
+    }
+
+    .testimonial, .content{
+        display: flex;
+    }
+
+    .content{
+        padding-left: 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .content p{
+        text-align: left;
+    }
+
+    .benefits .tablet-flex{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    
+    .benefit{
+        margin: 0;
+        width: calc(100% / 2 - 1rem);
+    }
+
+    .benefit h2{
+        font-size: 4rem;
+    }
+
+    .benefits > .container > h2{
+        padding-bottom: 3rem;
+    }
+
+    .about .container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .about-us h2{
+        font-size: 3rem;
+    }
+
+    .about-us{
+        width: 60%;
+    }
+
+    .ceo{
+        width: calc(40% - 2rem);
+    }
+
+    .try h2{
+        font-size: 4rem;
     }
 }
